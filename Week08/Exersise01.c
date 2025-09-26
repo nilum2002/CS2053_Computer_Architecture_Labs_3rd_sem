@@ -35,7 +35,6 @@ void main()
                 *(led_base + 0x0) = 0x0;
                 *(led_base + 0x1) = 0xFF << 8 | 0xFF << 16;
                 *(led_base + 0x2) = 0x0;
-               
             }
             else
             {
